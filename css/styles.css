@@ -111,30 +111,7 @@ section{
     box-shadow: none;
     padding: 6px 25px;
 }
-.recentapps{
-    height: 80px;
-    margin-top: 5px;
-}
-.contenedorapps{
-    margin: 15px;
-    color: #808080;
-    background: rgba(153, 153, 153, 0.2);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; 
-}
-.contenedorapps i{
-    font-size: 25px;
-    border-radius: 50%;
-    padding: 15px;
-}
-.contenedorapps i:hover{
-    background: rgba(184, 180, 180, 0.2);
-    border-radius: 50%;
-    color: #ffffff;
-}
+/* RECENT APPS styles section */
 footer{
     position:fixed;
     bottom:0;
