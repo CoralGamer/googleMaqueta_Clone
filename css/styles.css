@@ -60,6 +60,16 @@ body{
     box-shadow: none;
     padding: 6px 25px;
 }
+.google_Area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 15vh;
+}
+.google_Img{
+    padding-bottom: 15px;
+}
 section{
     position: relative;
     display: flex;
@@ -74,10 +84,16 @@ section{
     height: 35px;
     margin-top: 30px;
     margin-bottom: 20px;
+    justify-content: center;
     align-items: stretch;
     max-height: max-content;
     background-color: aliceblue;
     border-radius: 25px;
+}
+.search_bar_R{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 .search_bar i{
     margin: 10px;

@@ -26,31 +26,50 @@
                 </div>
             </div>
         </div>
-
     </header>       
+    <section class="container-fluid google_Area">
         <div class="row">
-            <div class="col-12" style="width: 100%; height: 200px;"></div>
-        </div>
-    <section>
-            <img src="multimedia/google.png" alt="Google">
-            <div class="search_bar">
-                <i class="fa-solid fa-magnifying-glass" style="padding-left: 5px; padding-right: 5px;"></i>
-                <form>
-                    <textarea id="busqueda" placeholder="Prueba tu suerte hoy..." style="resize: none;     border: none;
-                    overflow: none;
-                    outline: none;
-                    height: 30px;
-                    width: 350px;
-                    background-color: aliceblue;
-                
-                    -webkit-box-shadow: none;
-                    -moz-box-shadow: none;
-                    box-shadow: none;"></textarea>
-                </form>
-                <i class="fa-solid fa-microphone" style="padding-left: 5px;"></i>
-                <i class="fa-solid fa-camera-retro" style="padding-right: 5px;"></i>
+            <div class="col-1 col-sm-1"></div>
+            <div class="col-10 col-sm-10">
+                <div class="row">
+                    <div class="col-12 text-center google_Img">
+                        <img src="multimedia/google.png" alt="Google">
+                    </div>    
+                    <div class="col-12 search_bar">
+                        <div class="row search_bar_R">
+                            <div class="col-1" style="z-index: 1;">
+                                <i class="fa-solid fa-magnifying-glass" style="padding-left: 5px; padding-right: 5px;"></i>
+                            </div>
+                            <div class="col-8" style="z-index: 0;">
+                                <form> 
+                                    <textarea id="busqueda" placeholder="Prueba tu suerte hoy..." style="resize: none;     border: none;
+                                    overflow: none;
+                                    outline: none;
+                                    height: 30px;
+                                    width: 100%;
+                                    padding-top: 5px;
+                                    font-size: 16px;
+                                    text-wrap: nowrap;
+                                    background-color: aliceblue;
+                                    
+                                
+                                    -webkit-box-shadow: none;
+                                    -moz-box-shadow: none;
+                                    box-shadow: none;"></textarea>
+                                </form>     
+                            </div>
+                            <div class="col-3 d-flex justify-content-end" style="z-index: 1;">
+                                <i class="fa-solid fa-microphone"></i>
+                                <i class="fa-solid fa-camera-retro"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
+            <div class="col-1 col-sm-1"></div>
+        </div>
+
+
 
         <div class="buttons_cont" style="margin-bottom: 25px;">
             <button class="downsearch_b">Buscar con Google</button>
